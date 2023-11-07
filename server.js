@@ -1,8 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const dbConfig = require('./config/database.config');
-const Product = require('./models/Product');
+const dbConfig = require('./database.config');
+const Product = require('./Product');
 var cors = require('cors')
 
 //connecting to database
